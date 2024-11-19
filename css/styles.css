@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6;
 }
 
 header {
@@ -20,6 +21,26 @@ nav a {
 
 main {
     padding: 20px;
+    min-height: 80vh;
+}
+
+h1, h2, p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 5px 0;
 }
 
 footer {
@@ -27,7 +48,15 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Témoignages */
+section.temoignages p {
+    text-align: center;
+    font-style: italic;
+    margin: 10px auto;
+    max-width: 800px;
 }
