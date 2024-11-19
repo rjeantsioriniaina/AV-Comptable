@@ -71,3 +71,12 @@ section.temoignages p {
     margin: 10px auto;
     max-width: 800px;
 }
+/* Autres styles restent les mêmes */
+
+ul li img {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: 50px; /* Maintenir la même hauteur pour garder les proportions */
+    margin-right: 10px; /* Un peu d'espace entre l'icône et le texte */
+    vertical-align: middle; /* Aligne l'icône avec le texte */
+}
+
