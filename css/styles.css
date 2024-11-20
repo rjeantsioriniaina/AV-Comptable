@@ -79,4 +79,11 @@ ul li img {
     margin-right: 10px; /* Un peu d'espace entre l'icône et le texte */
     vertical-align: middle; /* Aligne l'icône avec le texte */
 }
+/* CSS pour les images avec la classe 'responsive-img' */
+    .responsive-img {
+        width: 100%;
+        height: auto;
+        border: 2px solid #ddd; /* Exemple de bordure */
+        margin: 10px 0; /* Espacement vertical */
+    }
 
