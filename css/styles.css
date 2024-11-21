@@ -92,3 +92,31 @@ ul li img {
         margin: 10px 0; /* Espacement vertical */
     }
 
+/* Autres styles restent les mêmes */
+
+nav {
+    display: flex;
+    justify-content: center; /* Centre les liens de navigation */
+    background-color: #2E86C1; /* Couleur de fond de la barre de navigation */
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold; /* Texte en gras pour plus de visibilité */
+    padding: 0.5em 1em; /* Ajoute du padding pour augmenter la zone cliquable */
+    border-radius: 5px; /* Bordure arrondie pour un meilleur design */
+    transition: background-color 0.3s; /* Effet de transition pour le hover */
+}
+
+nav a:hover {
+    background-color: #1B4F72; /* Change la couleur de fond au survol */
+}
+
+nav a:active {
+    background-color: #1A5276; /* Change la couleur de fond quand activé */
+}
+
+
