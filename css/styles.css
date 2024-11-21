@@ -119,4 +119,54 @@ nav a:active {
     background-color: #1A5276; /* Change la couleur de fond quand activé */
 }
 
+/* Styles pour les champs de formulaire */
+form {
+    max-width: 600px; /* Limite la largeur maximale du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    padding: 20px;
+    background-color: #f4f4f4; /* Couleur de fond du formulaire */
+    border-radius: 10px; /* Bordures arrondies pour un meilleur design */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordures arrondies pour les champs */
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+form textarea {
+    resize: vertical; /* Permet de redimensionner verticalement uniquement */
+    height: 150px; /* Hauteur par défaut pour le champ de message */
+}
+
+form button[type="submit"] {
+    background-color: #2E86C1; /* Couleur de fond du bouton */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1A5276; /* Couleur de fond au survol du bouton */
+}
 
