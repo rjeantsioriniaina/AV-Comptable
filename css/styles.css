@@ -80,6 +80,9 @@ ul li img {
     height: 50px; /* Maintenir la même hauteur pour garder les proportions */
     margin-right: 10px; /* Un peu d'espace entre l'icône et le texte */
     vertical-align: middle; /* Aligne l'icône avec le texte */
+    border-radius: 50%; /* Transforme l'image en cercle */ 
+    margin-right: 10px; /* Un peu d'espace entre l'icône et le texte */ 
+    border: 2px solid #2E86C1; /* Ajoute une bordure colorée autour de l'icône */
 }
 /* CSS pour les images avec la classe 'responsive-img' */
     .responsive-img {
