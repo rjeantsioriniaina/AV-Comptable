@@ -36,7 +36,6 @@ section {
 ul {
     list-style-type: none; /* Suppression des puces par défaut */
     padding: 0;
-    text-align: center;
 }
 
 ul li {
@@ -47,12 +46,15 @@ ul li {
 
 ul li::before {
     content: '•'; /* Utilisation de puces */
-    position: absolute;
+    position: relative;
+    display: flex; 
+    align-items: center;
     left: 0;
     color: #2E86C1; /* Même couleur que le header pour cohérence */
     font-size: 1.5em;
     line-height: 1em; /* Aligner verticalement avec le texte */
 }
+
 
 footer {
     background: #2C3E50; /* Gris foncé contrasté */
