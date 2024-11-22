@@ -3,7 +3,19 @@
    <!-- Mise à jour pour forcer la réindexation par Google -->
   <url>
     <loc>https://rjeantsioriniaina.github.io/AV-Comptable/</loc>
-    <lastmod>2024-11-01</lastmod>
+    <lastmod>2024-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+   <url>
+    <loc>https://rjeantsioriniaina.github.io/AV-Comptable/services.html</loc>
+    <lastmod>2024-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+   <url>
+    <loc>https://rjeantsioriniaina.github.io/AV-Comptable/about.html</loc>
+    <lastmod>2024-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
