@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private/  # Empêche l'accès à un répertoire privé (modifie si nécessaire)
 Allow: /
 
-Sitemap: https://rjeantsioriniaina.github.io/AV-Comptable/sitemap.xml  # Remplacer par l'URL de ton sitemap
+Sitemap: https://rjeantsioriniaina.github.io/virtuelcomptable/sitemap.xml  # Remplacer par l'URL de ton sitemap
