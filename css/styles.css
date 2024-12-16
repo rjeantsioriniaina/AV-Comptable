@@ -169,4 +169,67 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #1A5276; /* Couleur de fond au survol du bouton */
 }
+/* Style pour la section des témoignages */
+.temoignages {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.temoignages h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.temoignages blockquote {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+    border-left: 5px solid #0073e6;
+    padding-left: 20px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.temoignages blockquote:before {
+    content: open-quote;
+    font-size: 2em;
+    color: #0073e6;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.temoignages cite {
+    display: block;
+    text-align: right;
+    color: #888;
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.temoignages blockquote:hover {
+    background-color: #e9f4ff;
+}
+@media (max-width: 600px) {
+    .temoignages {
+        padding: 20px;
+    }
+
+    .temoignages h2 {
+        font-size: 1.5em;
+    }
+
+    .temoignages blockquote {
+        font-size: 1em;
+        padding-left: 15px;
+    }
+}
 
